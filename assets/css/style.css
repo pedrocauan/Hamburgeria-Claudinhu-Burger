@@ -264,8 +264,8 @@ html.open {
     transform: rotateZ(45deg);
 }
 .menu.open .menu-burger .two {
-    transform: translateX(-100%);
-    /* transform: translateY(-50%); */
+    /*transform: translateX(-100%);*/
+    transform: translateY(-50%);
     margin-right: 50%;
     opacity: 0 ;
     transition: none;
