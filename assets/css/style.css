@@ -308,7 +308,7 @@ html.open {
 
 .banner.promo:hover {
     cursor:auto;
-    background-color: inherit;
+    background-color: transparent;
 
 }
 
