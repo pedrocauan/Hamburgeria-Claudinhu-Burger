@@ -38,7 +38,7 @@ html {
     font-size: 4rem;
 }
 
-.menu.open .menu-items ul li a{
+.menu .menu-items ul li a{
     font-size: 200%;
 }
 
