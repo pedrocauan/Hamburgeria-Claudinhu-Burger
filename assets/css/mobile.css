@@ -1,0 +1,43 @@
+html {
+    font-size: 30%;
+}
+
+.info .social-medias {
+    flex-direction: column;
+}
+
+#menu-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-items  .lanche-container {
+    display: flex;
+    flex-direction: column;
+ }
+
+#menu-items  .lanche-container img {
+   max-height: 50rem;
+}
+
+#menu-items .lanche-container p {
+    line-height: 5rem;
+}
+
+.pedido{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.pedido a{
+    display: block;
+    width: 100%;
+}
+
+.pedido button {
+    width: 100%;
+    font-size: 4rem;
+}
+
+
+
+
