@@ -241,7 +241,7 @@ h6{
     width: 100%;
     min-height: 1rem;
     border-radius: 0.5rem;
-    transition: 0.3s;
+    transition: transform 0.3s;
 }
 
 .menu .menu-burger .one {
@@ -253,7 +253,7 @@ h6{
 
 
 .menu.open .menu-burger {
-    transition: all 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
 
 }
 
