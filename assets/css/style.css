@@ -217,6 +217,12 @@ h6{
 /*Impede que o usuario role a pagina quando o menu mobile estiver aberto*/
 html.open {
     overflow-y: hidden;
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 .menu .menu-items ul {
     width: 90%;
@@ -226,12 +232,6 @@ html.open {
     width: 6rem;
     min-height: 4rem;
     position: relative;
-   -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
 }
 
 .menu .menu-burger {
