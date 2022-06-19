@@ -241,7 +241,7 @@ html.open {
     width: 100%;
     min-height: 1rem;
     border-radius: 0.5rem;
-    transition: transform 0.3s;
+    /*transition: transform 0.3s;*/
 }
 
 .menu .menu-burger .one {
