@@ -214,10 +214,10 @@ h6{
     right: 0;
     bottom: 0;
 }
-
-
-
-
+/*Impede que o usuario role a pagina quando o menu mobile estiver aberto*/
+html.open {
+    overflow-y: hidden;
+}
 .menu .menu-items ul {
     width: 90%;
 }
