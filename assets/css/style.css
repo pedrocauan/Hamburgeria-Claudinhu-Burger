@@ -392,9 +392,9 @@ html.open {
     text-align: center;
     
 }
-.cardapio h2 .rotate {
+/*.cardapio h2 .rotate {
     transform: rotate(180deg);
-}
+}*/
 
 .lanche-grid {
     display: grid;
