@@ -392,14 +392,11 @@ html.open {
     text-align: center;
     
 }
-/*.cardapio h2 .rotate {
-    transform: rotate(180deg);
-}*/
-
-.lanche-grid {
+/**/
+/*.lanche-grid {
     display: grid;
     grid-template-rows: 0.3fr 0.8fr 1fr;
-}
+}*/
 
 /*Titulo do item do cardapio*/
 .cardapio .lanche-container h3 {
