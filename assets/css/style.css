@@ -294,13 +294,13 @@ html.open {
     padding: 0;
     margin: 0;
 }
-
+/* Escurece o fundo do banner quando passa o mouse por cima*/
 .banner:hover {
     background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
    
 }
-
+/*oculta a mensagem do banner caso ele já esteja na aba de promoções*/
 .banner.promo:hover {
     cursor:auto;
     background-color: transparent;
@@ -309,13 +309,14 @@ html.open {
 
 
 /* ANIMAÇÃO NO JAVASCRIPT*/
+/*==== Slide ======*/
 .banner img{
     width: 100%;
     height: 100%;
     object-fit: scale-down cover;
     object-position: center;
     position: absolute;
-    z-index: -1;
+    z-index: -1;/*Deixa ele abaixo do efeito escuro do banner*/
     opacity: 0;
     transition: opacity 0.8s ease-in-out; /*Efeito de transição*/
 }
@@ -324,11 +325,11 @@ html.open {
 .banner img.select{
     opacity: 1;
 }
-
+/*Info banner -> texto que'e mostrado quando o usuario passa o mouse em cima do banner*/
 .banner .info-banner {
     position: relative;
 }
-
+/*Titulo e descrição*/
 .banner .desc {
     display: flex;
     flex-direction: column;
@@ -337,14 +338,12 @@ html.open {
     align-items: center;
 }
 
-
-
 .banner h2, .banner p
 {
     display: none;
    
 }
-
+/*Centraliza a mensagem no meio do banner*/
 .banner:hover .desc {
     position: absolute;
     top: 10%;
@@ -352,7 +351,7 @@ html.open {
     right: 25%;
     bottom: 25%;
 }
-
+ 
 .banner:hover  h2,.banner:hover p{
     font-family: 'BIZ UDPGothic', sans-serif ;
     display: block;
@@ -370,15 +369,11 @@ html.open {
 }
 
 
-.banner:hover p {
+.banner:hover .desc p {
     color: #cacaca;
     letter-spacing: 0.5rem;
     line-height: 4rem;
     color: #cacaca;
-}
-
-
-.banner:hover p {
     top: 40%;
     left: 35%;
 }
