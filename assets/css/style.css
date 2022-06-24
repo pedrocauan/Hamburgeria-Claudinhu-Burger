@@ -225,21 +225,19 @@ html.open {
     width: 90%;
 }
 
-/*.menu .menu-burger{
+/*=== CRIAÇÃO DO MENU BURGER*/
+
+/*Posição e tamanho maximo dele na tela*/
+.menu .menu-burger{
     width: 6rem;
     min-height: 4rem;
     position: relative;
-}*/
-
-.menu .menu-burger {
-    position: relative;
     z-index: 2;
     cursor: pointer;
-
 }
 
 .menu .menu-burger .one, .menu .menu-burger .two, .menu .menu-burger .three {
-    background-color: var(--menu-font-color);
+    background-color: var(--menu-font-color); /*COr das barrinhas*/
     position: absolute;
     width: 100%;
     min-height: 1rem;
