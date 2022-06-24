@@ -83,7 +83,7 @@ h6{
  }
 
 
-//Centraliza elementos
+/*Centraliza elementos*/
 .flex {
     display: flex;
     flex-direction: column;
