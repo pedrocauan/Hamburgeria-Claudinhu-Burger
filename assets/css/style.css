@@ -395,7 +395,7 @@ html.open {
 
 .lanche-grid {
     display: flex;
-    flex-direction: coluwn;
+    flex-direction: column;
     gap: 2rem;
 }
 
