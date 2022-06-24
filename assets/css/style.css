@@ -392,7 +392,7 @@ html.open {
     text-align: center;
     
 }
-
+/*Espaçamento dos  itens no lanche-container*/
 .lanche-grid {
     display: flex;
     flex-direction: column;
@@ -539,16 +539,19 @@ html.open {
 /*==============================================
                     Rodapé
 ================================================*/
-
 .info {
     background-color: rgb(10, 10, 10);
     color: #cacaca;
 }
+.info h2 {
+    font-weight: 700;
+}
 
+/*Deixa o endereço ocupando toda a largura do footer*/
 .info iframe {
     width: 100%;
 }
-
+/*Redes sociais*/
 .info .social-medias {
     width: 100%;
     display: inline-flex;
