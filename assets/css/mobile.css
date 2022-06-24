@@ -1,11 +1,11 @@
 html {
     font-size: 30%;
 }
-
+/*Deixa os itens do rodapé um em baixo do outro*/
 .info .social-medias {
     flex-direction: column;
 }
-
+/*deixa os itens como flex no mobile*/
 #menu-items {
     display: flex;
     flex-direction: column;
@@ -15,7 +15,6 @@ html {
     display: flex;
     flex-direction: column;
  }
-
 #menu-items  .lanche-container img {
    max-height: 50rem;
 }
@@ -23,7 +22,7 @@ html {
 #menu-items .lanche-container p {
     line-height: 5rem;
 }
-
+/*Faz com que os botões fiquem um do lado do outro quando não tiver mais espaço no mobile*/
 .pedido{
     flex-wrap: wrap;
     gap: 2rem;
@@ -32,7 +31,6 @@ html {
     display: block;
     width: 100%;
 }
-
 .pedido button {
     width: 100%;
     font-size: 4rem;
