@@ -392,11 +392,12 @@ html.open {
     text-align: center;
     
 }
-/**/
-/*.lanche-grid {
-    display: grid;
-    grid-template-rows: 0.3fr 0.8fr 1fr;
-}*/
+
+.lanche-grid {
+    display: flex;
+    flex-direction: coluwn;
+    gap: 2rem;
+}
 
 /*Titulo do item do cardapio*/
 .cardapio .lanche-container h3 {
