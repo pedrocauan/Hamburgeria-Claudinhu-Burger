@@ -76,7 +76,7 @@ h6{
     font-size: 3.5rem;
  }
  
- /*Tamanho Paragraof*/
+ /*Tamanho Paragrafo*/
  p{
      font-size: 3rem;
      letter-spacing: 0.2rem;
@@ -184,12 +184,14 @@ h6{
      font-weight: 700;
      text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
  }
+
  /*Animação  quando passa o mouse por cima do menu */
  .menu .menu-items ul a:hover{
       background-color: var(--menu-font-color);
       border-radius: 1.5rem;
       color: var(--secret-sauce-color);
  }
+
  /* posição do menu no mobile */
  .menu .menu-items { 
     position: fixed;
@@ -200,31 +202,34 @@ h6{
     right: 0;
     bottom: 0;
     z-index: 1;
-    transition: all 0.3s ease-in-out; /*Roa a animação quando clica no hamburger */
+    transition: all 0.3s ease-in-out; /*Roda a animação quando clica no hamburger */
 }
+
 /*Animação quando o cara clica no menu burger*/
 .menu.open .menu-items {  
     left: 0;
 }
+
 /*Impede que o usuario role a pagina quando o menu mobile estiver aberto*/
 html.open {
-    overflow-y: hidden;
-    -webkit-touch-callout: none;
+   overflow-y: hidden;
+   -webkit-touch-callout: none;
    -webkit-user-select: none;
    -khtml-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
 }
+
 .menu .menu-items ul {
     width: 90%;
 }
 
-.menu .menu-burger{
+/*.menu .menu-burger{
     width: 6rem;
     min-height: 4rem;
     position: relative;
-}
+}*/
 
 .menu .menu-burger {
     position: relative;
@@ -379,9 +384,6 @@ html.open {
     top: 40%;
     left: 35%;
 }
-
-
-
 
 /*==============================================
                     CARDAPIO
